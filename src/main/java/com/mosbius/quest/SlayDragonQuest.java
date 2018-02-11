@@ -9,6 +9,6 @@ public class SlayDragonQuest implements Quest {
 		this.stream = stream;
 	}
 	public void embark() {
-		stream.print("Go to the castle and slay the dragon");
+		stream.println("Go to the castle and slay the dragon");
 	}
 }
